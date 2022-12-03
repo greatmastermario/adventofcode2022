@@ -14,7 +14,7 @@ def summarize_food(puzzle_input):
 
 
 if __name__ == "__main__":
-    inputfile = adventutils.file_contents("data/day1.txt")
+    inputfile = adventutils.file_contents("data/day01.txt")
     totals = summarize_food(inputfile)
     totals.sort(reverse=True)
     print("Puzzle 1: " + str(totals[0]))

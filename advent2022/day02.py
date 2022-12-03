@@ -64,6 +64,6 @@ def convert_by_win(move):
 
 
 if __name__ == "__main__":
-    rounds = adventutils.file_contents("data/day2.txt")
+    rounds = adventutils.file_contents("data/day02.txt")
     print("Part 1: " + str(score(rounds, identity)))
     print("Part 2: " + str(score(rounds, convert_by_win)))
